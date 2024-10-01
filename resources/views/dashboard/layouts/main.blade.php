@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     @include('dashboard.layouts.header')
 
     <div class="container-fluid">
@@ -23,7 +22,8 @@
             @include('dashboard.layouts.sidebar')
 
             <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mb-5">
-                @include('dashboard.index')
+               {{-- Main content section, to be filled by child views --}}
+               @yield('dashboard-content')
             </div>
         </div>
     </div>

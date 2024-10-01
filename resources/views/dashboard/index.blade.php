@@ -1,3 +1,6 @@
+@extends('dashboard.layouts.main')
+
+@section('dashboard-content')
 <div class="container mt-4">
     <div class="row">
         <h4 class="mb-4">Dashboard</h4>
@@ -89,4 +92,4 @@
         </div>
     </div>
 </div>
-</div>
+@endsection

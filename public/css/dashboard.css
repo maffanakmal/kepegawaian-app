@@ -102,3 +102,18 @@ body {
   font-size: .875rem;
   font-weight: 500;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table .aksi {
+  min-width: 120px; /* Atur lebar minimum untuk kolom aksi */
+}
